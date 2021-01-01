@@ -11,7 +11,7 @@ public class Factorial {
 
     private static long findFactorial( long n ) {
         if(n == 1 ) return 1;
-
+        System.out.println ("n: "+n);
         return n * findFactorial (n-1);
     }
 }
